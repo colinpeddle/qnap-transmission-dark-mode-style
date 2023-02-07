@@ -212,13 +212,14 @@ div#toolbar > *.disabled {
 ****
 ***/
 div#torrent_container {
-  position: relative;
-  top: 0;
-  padding: 0px;
-  margin: 0px;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  right: 0 !important;
+	position: relative;
+	top: 0;
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	right: 0 !important;
+	margin-top: 5px;
 }
 ul.torrent_list {
   width: 100%;
@@ -243,16 +244,16 @@ ul.torrent_list {
    */
 }
 ul.torrent_list li.torrent {
-  border-bottom: 1px solid #ccc;
-  padding: 4px 30px 5px 14px;
-  color: #b6b6b6;
-  background-color: #4b4b4b;
+	padding: 4px 30px 5px 14px;
+	color: #797979;
+	background-color: #242424;
+	margin-bottom: 5px;
 }
 ul.torrent_list li.torrent.compact {
   padding: 4px;
 }
 ul.torrent_list li.torrent.even {
-  background-color: #2b2b2b;
+	background-color: #262626;
 }
 ul.torrent_list li.torrent.selected {
   background-color: #272777;
@@ -294,14 +295,15 @@ ul.torrent_list li.torrent a:hover div.torrent_resume {
   background-position: center center;
 }
 ul.torrent_list li.torrent div.torrent_name {
-  font-size: 1.3em;
-  font-weight: bold;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #c8c8c8;
-  margin-top: 2px;
-  margin-bottom: 2px;
+	font-size: 1.3em;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #dfb9f0;
+	margin: 8px 0;
+	font-weight: 300;
+	letter-spacing: 0.3px;
 }
 ul.torrent_list li.torrent div.torrent_name.compact {
   font-size: 1em;
